@@ -11,4 +11,16 @@ class App < Sinatra::Application
     erb :index
   end
 
+  get '/cities' do
+    erb :cities
+  end
+
+  get '/jobs' do
+    erb :jobs
+  end
+
+  get '/about' do
+    erb :about_score
+  end
+
 end

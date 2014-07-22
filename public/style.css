@@ -1,7 +1,7 @@
 .body {
     font-family: 'Raleway', sans-serif;
     position: relative;
-    background-color: whitesmoke;
+    background-color: lightgray;
     text-color: darkgray;
     text-align: center;
     margin: auto;
@@ -11,10 +11,24 @@
 
 }
 
-.title {
+#title {
     position: relative;
     margin-top: 10px;
     margin-left: -200px;
     text-align: left;
 
+}
+ a {
+     text-decoration: none;
+     text-decoration-color: darkgray;
+ }
+
+.navbar {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    text-decoration: none;
+    margin-left: -200px;
+    text-align: left;
+    Display: inline;
 }
