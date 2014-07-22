@@ -19,8 +19,8 @@ class App < Sinatra::Application
     erb :jobs
   end
 
-  get '/about' do
-    erb :about_score
+  get '/my_salary' do
+    erb :current_salary_feels
   end
 
 end
