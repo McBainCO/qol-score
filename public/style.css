@@ -13,10 +13,10 @@
 
 #title {
     position: relative;
-    margin-top: 10px;
+    margin-top: -90px;
+    padding-top: 20px;
     margin-left: -200px;
     text-align: left;
-
 }
 
 .QOL_SCORE {
