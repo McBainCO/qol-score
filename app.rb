@@ -11,6 +11,10 @@ class App < Sinatra::Application
     erb :index
   end
 
+  get '/login' do
+    erb :"user_views/user_login"
+  end
+
   get '/cities' do
     erb :cities
   end
