@@ -4,6 +4,7 @@ body {
     background-color: lightgray;
     text-color: darkgray;
     text-align: left;
+    background: url("http://i.imgur.com/Y3GCweW.jpg");
 }
 
 header {
@@ -70,3 +71,6 @@ header {
     height: 20px;
 }
 
+.label {
+    width: 300px;
+}
