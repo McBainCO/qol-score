@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: qol_db
+  database: acres_db
   pool: 5
   username: gschool
   password:
@@ -9,7 +9,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: qol_db_test
+  database: acres_db_test
   pool: 5
   username: gschool
   password:
