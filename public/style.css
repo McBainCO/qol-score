@@ -11,12 +11,14 @@ header {
     width: 100%;
     min-height:100px;
     text-decoration: none;
+    text-color: lightgray;
     /*background: ;*/
 }
 
 .wrapper {
     width: 85%;
     max-width: 500px;
+    text-color: lightgray;
     margin: 0 auto;
 }
 

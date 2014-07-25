@@ -16,11 +16,11 @@ class App < Sinatra::Application
   end
 
   get '/login' do
-    erb :'user_views/user_login'
+    erb :'user_views/user_funnel/user_login'
   end
 
   get '/survey' do
-    erb :'user_views/survey'
+    erb :'user_views/user_funnel/survey'
   end
 
   get '/user_homepage' do
@@ -41,11 +41,11 @@ class App < Sinatra::Application
   # end
 
   get '/cities' do
-    erb :cities
+    erb :'user_views/user_cities'
   end
 
   get '/jobs' do
-    erb :jobs
+    erb :'user_views/jobs'
   end
 
 
